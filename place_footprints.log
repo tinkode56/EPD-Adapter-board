@@ -1,0 +1,41 @@
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 378:Plugin executed on: 'win32'
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 379:Plugin executed with python version: '3.9.10 (main, Jun 24 2022, 05:34:59) [MSC v.1932 64 bit (AMD64)]'
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 380:KiCad build version: (6.0.6)
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 381:Plugin version: 1.2.5
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 382:Frame repr: <wx._core.Frame object at 0x0000010D9A19BC10>
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J1 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J2 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R2 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint R1 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint L1 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C12 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D2 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D1 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C6 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint Q1 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C11 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C2 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C7 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C8 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint D3 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C5 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C9 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C3 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C4 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C1 on root level
+07-16 21:56:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint C10 on root level
+07-16 21:56:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 570:Reference designator is: C
+07-16 21:56:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 571:Reference number is: 8
+07-16 21:56:52 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 603:Sorted and filtered list:
+['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11', 'C12']
+07-16 21:57:01 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 641:Footprints to place:
+['C3']
+07-16 21:57:01 com_github_MitjaNemec_PlaceFootprints.place_footprints 296:Starting placing with linear layout
+07-16 21:57:01 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 688:Fatal error when executing place footprints
+Traceback (most recent call last):
+  File "C:\Users\acroi\Documents\KiCad\6.0\3rdparty\plugins\com_github_MitjaNemec_PlaceFootprints\action_place_footprints.py", line 683, in Run
+    placer.place_linear(footprints_to_place, ref_fp_ref, step_x, step_y, step, rotation,
+  File "C:\Users\acroi\Documents\KiCad\6.0\3rdparty\plugins\com_github_MitjaNemec_PlaceFootprints\place_footprints.py", line 306, in place_linear
+    ref_fp_index = footprints.index(ref_fp)
+ValueError: Footprint(ref='C8', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'std::deque< FOOTPRINT * >::value_type' at 0x0000010D9B0B8690> >, fp_id='7BECF4A1-840D-461D-B02F-68BAEAEE4C9D', sheet_id=[], filename=[]) is not in list
